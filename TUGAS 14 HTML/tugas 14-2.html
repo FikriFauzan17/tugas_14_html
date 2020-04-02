@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+<head>
+  <meta charset="utf-8" />
+  <title>TUGAS 14-2</title>
+</head>
+
+<body>
+  <h1><u>FORM LOGIN</u></h1>
+  <form>
+    <p>Jumlah Minimal : 4, Maksimal : 8 Karakter):</p>
+    <input type="text"  name="username" placeholder="abcdefgh" min="4" max="8"
+    required oninvalid="this.setCustomValidity('Enter Username Here')"
+    oninput="this.setCustomValidity('Karakter Tidak Memenuhi Syarat')">
+    <br>
+    <br>
+    <p>Jumlah Minimal : 5, Maksimal : 15 Karakter):</p>
+    <input type="password" name="password" placeholder="12345" min="5" max="15"
+    required oninvalid="this.setCustomValidity('Enter Password Here')"
+    oninput="this.setCustomValidity('Please lengthen text to 4 character or more (you are currently using 2 character)')">
+    <br>
+    <br>
+    <input type="submit" name="masuk akun" value="Masuk Akun">
+    <br>
+    <p>Semoga ilmu yang dipelajari berkah - Tugas 14-2</p>
+  </form>
+</body>
+
+</html>
